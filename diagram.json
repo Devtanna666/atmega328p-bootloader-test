@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "devices": [
+    {
+      "type": "wokwi-avr",
+      "id": "chip1",
+      "attrs": {
+        "program.hex": "bootloader.hex",
+        "resetVector": "0x7E00",
+        "clockFrequency": "16MHz"
+      }
+    }
+  ]
+}
